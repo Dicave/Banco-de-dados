@@ -1,0 +1,13 @@
+msql -u usuario -p (senha);
+show databases;
+create data base bd_2info1_19;
+use bd_2info1_19;
+
+explan empresa 
+
+insert into empresa(desc_emp) values("Instituto Ferderal Catarinense");
+insert into empresa(desc_emp) values("Coca-Cola"),('Sprite'),('Fanta'),('Guarana Antartica'),('Tubaína');
+				
+insert into empresa(cod_emp,desc_emp) values(8,"Dolly"),(9,'Kuat');
+
+select * from empresa;
